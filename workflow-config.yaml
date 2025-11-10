@@ -1,6 +1,6 @@
 chunk_overlap: 20
 chunk_size: 1024
-controller_url: https://gator-demo-controller-latest.default-tenant.app.innovation-dev.iguazio-cd2.com:8001
+controller_url: https://gator-demo-controller-latest.default-tenant.app.innovation-dev.iguazio-cd2.com:8080
 controller_username: guest
 default_llm:
   class_name: langchain_openai.ChatOpenAI
