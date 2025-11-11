@@ -1,6 +1,6 @@
 chunk_overlap: 20
 chunk_size: 1024
-controller_url: https://gator-demo-controller-latest.default-tenant.app.innovation-dev.iguazio-cd2.com:8080
+controller_url: nuclio-gator-demo-gator-demo-668f54c6d8-smzdk:8080
 controller_username: guest
 default_llm:
   class_name: langchain_openai.ChatOpenAI
@@ -15,6 +15,6 @@ embeddings:
   class_name: huggingface
   model_name: all-MiniLM-L6-v2
 log_level: INFO
-project_name: default
+project_name: gator-demo
 verbose: true
 workflows_kwargs: {}
