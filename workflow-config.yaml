@@ -1,6 +1,6 @@
 chunk_overlap: 20
 chunk_size: 1024
-controller_url: nuclio-gator-demo-gator-demo-668f54c6d8-smzdk:8080
+controller_url: https://nuclio-gator-demo-gator-demo-668f54c6d8-smzdk:8080
 controller_username: guest
 default_llm:
   class_name: langchain_openai.ChatOpenAI
