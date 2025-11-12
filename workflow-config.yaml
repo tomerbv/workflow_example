@@ -1,6 +1,6 @@
 chunk_overlap: 20
 chunk_size: 1024
-controller_url: https://gator-demo-controller-latest.default-tenant.app.innovation-dev.iguazio-cd2.com
+controller_url: https://gator-demo-controller-api.default-tenant.app.innovation-dev.iguazio-cd2.com
 controller_username: guest
 default_llm:
   class_name: langchain_openai.ChatOpenAI
@@ -11,11 +11,12 @@ default_vector_store:
   collection_name: default
   persist_directory: /tmp/chromadb/chroma
 deployment_url: http://0.0.0.0:8000
+mlrun_api_url: http://10.100.12.16:8080
 embeddings:
   class_name: huggingface
   model_name: all-MiniLM-L6-v2
 log_level: INFO
 project_name: gator-demo
-workflow_source_url: "git://github.com/tomerbv/workflow_example.git"
+workflow_source_url: git://github.com/tomerbv/workflow_example.git
 verbose: true
 workflows_kwargs: {}
