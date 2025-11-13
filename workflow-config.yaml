@@ -11,13 +11,10 @@ default_vector_store:
   collection_name: default
   persist_directory: /tmp/chromadb/chroma
 deployment_url: http://0.0.0.0:8000
-mlrun_api_url: http://10.100.12.16:8080
 embeddings:
   class_name: huggingface
   model_name: all-MiniLM-L6-v2
 log_level: INFO
 project_name: gator-demo
-workflow_api_name: workflow-api
-workflow_source_url: git://github.com/tomerbv/workflow_example.git
 verbose: true
 workflows_kwargs: {}
